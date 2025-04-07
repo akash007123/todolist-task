@@ -9,7 +9,7 @@ interface TodoFormProps {
 }
 
 const ASSIGNEES = [
-  'Akask',
+  'Akash',
   'Prashant',
   'Rahul',
   'Sachin',

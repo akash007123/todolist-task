@@ -15,7 +15,7 @@ export const TodoList: React.FC = () => {
   };
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 ">
       {todos.map((todo) => (
         <div
           key={todo.id}
@@ -24,7 +24,7 @@ export const TodoList: React.FC = () => {
           }`}
         >
           {editingTodo?.id === todo.id ? (
-            <div className="space-y-4">
+            <div className="space-y-4 ">
               <h3 className="text-lg font-semibold text-gray-900">Edit Todo</h3>
               <TodoForm
                 initialData={{
@@ -42,7 +42,7 @@ export const TodoList: React.FC = () => {
           ) : (
             <>
               <div className="flex items-start justify-between">
-                <div className="flex-1">
+                <div className="flex-1 ">
                   <h3
                     className={`text-lg font-semibold ${
                       todo.completed ? 'text-blue-500 line-through' : 'text-gray-900'
@@ -57,7 +57,7 @@ export const TodoList: React.FC = () => {
                   >
                     {todo.description}
                   </p>
-                  <p className="mt-2 text-sm text-gray-500">
+                  <p className="mt-2 text-sm text-gray-500 ">
                     Assigned to: {todo.assignee}
                   </p>
                 </div>

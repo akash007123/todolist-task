@@ -20,6 +20,7 @@ function App() {
                     <Home className="mr-2 h-5 w-5" />
                     <span className="font-medium">Todos</span>
                   </Link>
+                  
                   <Link
                     to="/profile"
                     className="flex items-center text-gray-900 hover:text-blue-600"
