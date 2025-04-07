@@ -45,7 +45,7 @@ export const TodoList: React.FC = () => {
                 <div className="flex-1">
                   <h3
                     className={`text-lg font-semibold ${
-                      todo.completed ? 'text-gray-500 line-through' : 'text-gray-900'
+                      todo.completed ? 'text-blue-500 line-through' : 'text-gray-900'
                     }`}
                   >
                     {todo.title}
@@ -72,7 +72,7 @@ export const TodoList: React.FC = () => {
                     </button>
                   )}
                   {todo.completed && (
-                    <span className="rounded p-1 text-green-600" title="Completed">
+                    <span className="rounded p-1 text-red-600" title="Completed">
                       <Check className="h-5 w-5" />
                     </span>
                   )}

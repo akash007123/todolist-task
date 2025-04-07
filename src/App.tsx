@@ -9,9 +9,9 @@ function App() {
     <TodoProvider>
       <BrowserRouter>
         <div className="min-h-screen bg-gray-100">
-          <nav className="bg-white shadow">
-            <div className="container mx-auto px-4">
-              <div className="flex h-16 items-center justify-between">
+          <nav className="bg-white shadow ">
+            <div className="container mx-auto px-4 ">
+              <div className="flex h-16 items-center justify-center">
                 <div className="flex items-center space-x-8">
                   <Link
                     to="/"
@@ -25,7 +25,7 @@ function App() {
                     className="flex items-center text-gray-900 hover:text-blue-600"
                   >
                     <User className="mr-2 h-5 w-5" />
-                    <span className="font-medium">Profile</span>
+                    <span className="font-medium ">Profile</span>
                   </Link>
                 </div>
               </div>

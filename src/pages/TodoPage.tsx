@@ -13,7 +13,7 @@ export const TodoPage: React.FC = () => {
     <div className="container mx-auto max-w-3xl px-4 py-8">
       <div className="mb-8">
         <div className="flex items-center justify-between mb-6">
-          <h1 className="text-3xl font-bold text-gray-900">Todo List</h1>
+          <h1 className="text-3xl font-bold text-blue-800 animate-bounce">Todo List</h1>
           <button
             onClick={() => setIsAddingTodo(true)}
             className="flex items-center rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
