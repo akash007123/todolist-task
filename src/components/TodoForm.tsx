@@ -39,6 +39,7 @@ const ASSIGNEES = [
   'Sonam',
   'Shivani',
   'Chirag',
+  'Peter',
 ];
 
 export const TodoForm: React.FC<TodoFormProps> = ({
