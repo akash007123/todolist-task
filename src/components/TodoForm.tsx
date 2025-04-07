@@ -23,7 +23,6 @@ const ASSIGNEES = [
   'Ankit',
   'Amitabh',
   'Sanjeev',
-  'Rakesh',
   'Ajay',
   'Vikas',
   'Rakesh',
@@ -39,6 +38,7 @@ const ASSIGNEES = [
   'Deepika',
   'Sonam',
   'Shivani',
+  'Chirag',
 ];
 
 export const TodoForm: React.FC<TodoFormProps> = ({

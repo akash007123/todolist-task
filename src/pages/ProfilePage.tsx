@@ -14,7 +14,7 @@ export const ProfilePage: React.FC = () => {
             <User className="h-8 w-8 text-blue-600" />
           </div>
           <div>
-            <h1 className="text-2xl font-bold text-gray-900">John Doe</h1>
+            <h1 className="text-2xl font-bold text-gray-900">Ashsish</h1>
             <p className="text-gray-600">Task Manager</p>
           </div>
         </div>

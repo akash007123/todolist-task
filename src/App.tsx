@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { Home, User } from 'lucide-react';
 import { TodoProvider } from './context/TodoContext';
